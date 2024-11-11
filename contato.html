@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>João Uesler Batista dos Santos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre Mim</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Contato</h2>
+            <form action="mailto:seuemail@exemplo.com" method="post" enctype="text/plain">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            <p>Ou entre em contato por meio das minhas redes sociais:</p>
+            <ul>
+                <li><a href="https://linkedin.com/in/seulinkedin" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/seugithub" target="_blank">GitHub</a></li>
+                <!-- Adicione mais links de redes sociais conforme necessário -->
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 João Uesler Batista dos Santos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
